@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="img/js.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/about.css" rel="stylesheet">
+  <style>
+    /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+nav {
+  z-index: 2;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+  </style>
+  <title> WebDev Club </title>
+</head>
+
+<!-- Links to other pages -->
+<body>
+  <nav>
+    <div class="logo"><img id="logoImage" src="./img/jmudev.png" alt="logo"></div>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./graphs.html">Graphs</a></li>
+      <li><a id="userlink" href="./user.html">User</a></li>
+      <li><a id ="signout" href="javascript:signUserout()">Signout</a></li>
+    </ul>
+    <div class="icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- <header>
+      <h1> JMU </h1>
+      <p> CS 🚀 </p>
+    </header> -->
+
+<section>
+
+      <h2>📜 Manifesto</h2>
+      <p>
+          We are mission driven and process focused group of young web developers looking to hone our
+          skills and practices within
+          the design, collaboration, and implementation of web pages. We strive to put our technical and interpersonal
+          skills to use within a group of
+          JMU students to help create awesome web pages for whomever might be in need of one! 
+      </p>
+
+      <br>
+      <p>
+        As a team member you will
+          be working with and subject to the caring and passionate
+          individuals who create fun environments surrounding real world skill in Data Analysis, Calculus, Discrete Structures, Java, Python, OpenCV, DataScience, Statistics, and iOS mobile application development.
+      </p>
+      <br>
+      <p>
+        🌱 We love learning C, Assembly, SQL, Database Management, and SwiftUI for the Apple development program.
+      </p>
+     <br>
+      <p>
+        💞️ We are looking to collaborate on Data Science projects for openCV in python3 and iOS mobile application development with Swift code and SwiftUI.
+      </p>
+
+    </section>
+
+    <section class="light">
+      <h2>👩🏽‍🚀 The Crew</h2>
+
+      <!-- Quotes from the team members -->
+      &nbsp;
+      <div class="QuotePanel">
+        <p><i>"I'm currently in a social fraternity as well as multiple academic clubs here at JMU, but nothing
+            comapres
+            to the energy levels that the WebDev club members bring."</i></p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Vice President: Shep Burris</p>
+      </div>
+      &nbsp;
+      <div class="QuotePanel">
+        <p><i>"Not only does this club prepare you for a very pertinant and rewarding job after graduation (a nice
+            resume booster I might add), but
+            the amount of joy and genuine interest that pours out of every team meeting ceases to impress me as the
+            president of this club."</i></p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;- President: Justin Newman</p>
+      </div>
+      &nbsp;
+      <div class="QuotePanel">
+        <p><i>"The amount of sheer energy that comes out of this revolutionary club has me wanting to create more and
+            more while sharing how much each
+            project blows through my expectations."</i></p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Member: Abdallah Derballah</p>
+      </div>
+      &nbsp;
+      <div class="QuotePanel">
+        <p><i>"I love being apart of something that creates such a great environment surrounding web development.
+            Trust me, if you're on the fence
+            about joining a club and want to learn some skills in Webdev, use the "Join Us" sheet now, you won't
+            regret it."</i></p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;- Member: Junior G.</p>
+      </div>
+
+      <h2>🏆</h2>
+      <p>
+        Best club at JMU!
+      </p>
+
+    </section>
+
+    <blockquote>
+    </blockquote>
+    <blockquote>
+    </blockquote>
+  </main>
+  <script src="js/signin.js"></script>
+  <script src="js/controls/OrbitControls.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

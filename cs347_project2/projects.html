@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="img/js.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title> WebDev Club </title>
+</head>
+
+<!-- Links to other pages -->
+<body>
+  <nav>
+    <div class="logo"><img id="logoImage" src="./img/jmudev.png" alt="logo"></div>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./graphs.html">Graphs</a></li>
+      <li><a id="userlink" href="./user.html">User</a></li>
+      <li><a id ="signout" href="javascript:signUserout()">Signout</a></li>
+    </ul>
+    <div class="icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!-- Project Section -->
+  <div class="team-container">
+    <h1>Club Projects</h1>
+    <div class="row" style="margin-top:64px">
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://observablehq.com/@justinmatthewnewman/bitcoin-nodes-per-country"><img src="img/js1.jpg"
+                alt="John" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://observablehq.com/@justinmatthewnewman/bitcoin-nodes-per-country"><img src="img/js2.jpg"
+                alt="Jane" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://observablehq.com/@justinmatthewnewman/plot-scatterplot"><img src="img/js3.jpg" alt="Jane"
+                style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://observablehq.com/@justinmatthewnewman/state-choropleth-gas-prices"><img src="img/js4.jpg"
+                alt="Jane" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="./deckGL.html"><img src="img/js5.jpg"
+                alt="Jane" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="./deckGL_light.html"><img src="img/js6.jpg"
+                alt="Jane" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://github.com/JustinMatthewNewman/Website/tree/main/project_2"><img src="img/js7.jpg" alt="Mike" style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgHover">
+        <div class="cardcol">
+          <div class="card">
+            <a href="https://observablehq.com/@justinmatthewnewman/assignment-4-plot"><img src="img/js8.jpg" alt="Dan"
+                style="width:100%"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- What skills are offered/used in webdev club -->
+  <div class="greyBox" style="padding:148px 16px">
+    <div>
+      <div>
+        <h1><b>What skills will you gain from our club?</b></h1>
+        <div>
+          <ul>
+            <li>Node.js</li>
+            <li>Three.js / WebGL</li>
+            <li>React.js</li>
+            <li>Vue.js</li>
+            <li>Angular.js</li>
+            <li>Ember.js</li>
+            <li>BackBone.js</li>
+          </ul>
+        </div>
+      </div>
+      <div class="logoImgs">
+        <img class="l" src="img/logo1.png" alt="html">
+        <img class="js" src="img/logo2.png" alt="js">
+      </div>
+    </div>
+  </div>
+
+
+
+   <!-- Projects that we have worked on or might work on in the future -->
+   <div class="team-container" style="padding:128px 16px">
+    <p>A few examples of projects we might work on together.</p>
+    <div class="row" style="margin-top:64px">
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/node.png" alt="Node" style="width:100%">
+          <div class="team-container">
+            <h3>Node.js</h3>
+            <a href="https://nodejs.org/en/">What's node.js?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/three3.png" alt="Three" style="width:100%">
+          <div class="team-container">
+            <h3>Three.js</h3>
+            <a href="https://threejs.org/">What's Three.js?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/backbone.png" alt="BackBone" style="width:100%">
+          <div class="team-container">
+            <h3>BackBone.js</h3>
+            <a href="https://backbonejs.org/">What's BackBone.js?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/react.png" alt="React" style="width:100%">
+          <div class="team-container">
+            <h3>React.js</h3>
+            <a href="https://reactjs.org/">What's React.js?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/vue.png" alt="Vue" style="width:100%">
+          <div class="team-container">
+            <h3>Vue.js</h3>
+            <a href="https://vuejs.org/">What's this?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/ember.png" alt="Ember" style="width:100%">
+          <div class="team-container">
+            <h3>Ember.js</h3>
+            <a href="https://emberjs.com/">What's Ember.js?</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/ang.svg" alt="Angular" style="width:100%">
+          <div class="team-container">
+            <h3>Angular.js</h3>
+            <a href="https://angularjs.org/">What's Angular.js?</a>
+          </div>
+        </div>
+      </div>
+      <div class="cardcol">
+        <div class="card">
+          <img src="img/va.jpg" alt="Three" style="width:100%">
+          <div class="team-container">
+            <h3>Deck.gl</h3>
+            <a href="https://deck.gl/">What's Deck.GL?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/signin.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

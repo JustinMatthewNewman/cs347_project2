@@ -1,0 +1,110 @@
+#corner {
+    border-radius: 15px;
+    background: linear-gradient(to right, rgba(78, 78, 78, 0.2), rgba(115, 115, 115, 0.2));
+    padding: 10px;
+    height: 90%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 80%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#corner2 {
+    border-radius: 5%;
+    background: linear-gradient(to right, rgb(227, 227, 227), rgba(210, 210, 210, 0.553));
+    color: #fff;
+    margin-left: auto;
+    width: 33%;
+    padding: 2px;
+    float: right;
+}
+
+#corner3 {
+    border-radius: 25px;
+    background: linear-gradient(to right, rgba(83, 83, 83, 0.43), rgba(115, 115, 115, 0.2));
+    padding: 10px;
+    color: #fff;
+    margin-right: 33%;
+    margin-top: 10px;
+
+
+}
+
+#corner4 {
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(195, 164, 51), rgb(255, 236, 110));
+    color: #fff;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 66%;
+    height: auto;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+}
+
+#corner5 {
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    height: 33%;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#container2 {
+    border-radius: 15px;
+    padding: 10px;
+    height: 90%;
+    color: #fff;
+    margin-top: 5px;
+}
+
+#profile-pic{
+    width: 100%;
+}
+
+img {
+    border-radius: 5%;
+  }
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+
+#submit{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #corner2 {
+        margin-top: 2px;
+        width: auto;
+    }
+    #corner3 {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+    }
+    #container2{
+        padding: 10px;
+    }
+}
+
